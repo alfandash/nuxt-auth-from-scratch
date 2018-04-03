@@ -1,11 +1,11 @@
 module.exports = {
   db: {
-    user: 'nuxt-auth-from-scratch',
-    password: '********************',
-    database: 'nuxt-auth-from-scratch',
-    socketPath: '/var/run/mysqld/mysqld.sock'
+    user: 'root',
+    password: 'admin',
+    database: 'learn-nuxt',
+    socketPath: '3306'
   },
   env: 'dev',
   port: '41205',
-  jwtToken: '********************'
+  jwtToken: 'jwttoken'
 }
